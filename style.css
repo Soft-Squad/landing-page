@@ -82,6 +82,12 @@ body {
     font-weight: 700;
 }
 
+.hero button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #3882F6;
+}
+
 .image-placeholder {
     width: 500px;
     height: 250px;
@@ -118,4 +124,82 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    margin: 50px 0 50px 0;
+    padding: 75px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    padding: 0 10px 20px 0;
+    text-align: right;
+    font-weight: 600;
+}
+
+.modal {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.modal-info {
+    flex: 1;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.modal-header {
+    font-weight: 600;
+    margin: 30px 0 0 50px;
+    padding: 0;
+}
+
+.modal-subtext {
+    margin: 5px 30px 30px 50px; 
+}
+
+.modal button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    background: #3882F6;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.modal button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 4px;
+}
+
+.footer a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: 700;
 }
