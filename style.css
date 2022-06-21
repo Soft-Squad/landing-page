@@ -87,3 +87,35 @@ body {
     height: 250px;
     background-color: grey;
 }
+
+.body {
+    flex: 1;
+}
+
+.body h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 50px 0 50px 0;
+}
+
+.action-images .placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.action-images .text {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
